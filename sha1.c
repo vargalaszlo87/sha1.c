@@ -1,13 +1,13 @@
 /*	
  *	sha1.c	
  *
- *		desc.:	This is a simple SHA1 hash generator in pure C
- *			(without external library). Workd with 7bit ASCII.
- *			Made for WebSocket handshake response, but you can
- *			use it in any project.
+ *		desc.:		This is a simple SHA1 hash generator in pure C
+ *				(without external library). Workd with 7bit ASCII.
+ *				Made for WebSocket handshake response, but you can
+ *				use it in any project.
  *
- *		usage:	char *msg = "hittheroadjack";
- *			char *hash = sha1ASCII7bit(msg);
+ *		usage:		char *msg = "hittheroadjack";
+ *				char *hash = sha1ASCII7bit(msg);
  *
  *		author:		2020 vargalaszlo.com
  *		license:	GPLv3
